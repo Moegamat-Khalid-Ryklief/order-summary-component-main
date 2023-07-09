@@ -1,0 +1,113 @@
+body{
+  font-family: 'Red Hat Display',Arial;
+  margin: 0; 
+  background-image: url("../images/pattern-background-desktop.svg");
+}
+
+.order-summary-card{
+  display: flex; 
+  flex-direction: column; 
+  max-width: 300px; 
+  border: none; 
+  border-radius: 10px; 
+  background-color: white;
+}
+
+.illustartion-hero-image-container{
+  margin-bottom: 10px;
+}
+
+.illustration-hero-image{
+  width: 100%; 
+  border-radius: 10px 10px 0 0;
+}
+
+.main-info-container{
+  padding: 0 30px 30px; 
+  margin-top: 0;
+}
+
+.order-summary-paragraph-container{
+  text-align: center; 
+  margin-top: 0;
+}
+
+.order-summary-title{
+  font-weight: bold; 
+  margin-bottom: 10px;
+}
+
+.order-summary-paragraph{
+  font-size: 10px; 
+  line-height: 17px; 
+  margin-top: 0; 
+  padding: 0 10px;
+}
+
+.music-icon-annual-change{
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 15px; 
+  background-color: rgba(219, 219, 219, 0.24); 
+  border-radius: 5px; 
+  font-size: 12px;
+}
+
+.music-icon-container{
+  width: 50px;
+}
+
+.music-icon{
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%;
+}
+
+.annual-plan-change-container{
+  flex: 1; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.annual-plan{
+  margin: 0; 
+  font-weight: bold;
+}
+
+.yearly-fee{
+  margin: 0;
+}
+
+.change-container a{
+  color: blue; 
+  font-weight: bold;
+}
+
+.button-container{
+  display: flex; 
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.payment-button{
+  font-size: 10px; 
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border-radius: 8px; 
+  border: none; 
+  background-color: rgb(35, 35, 252); 
+  color: white; 
+  font-weight: bold;
+}
+
+.cancel-button{
+  font-size: 10px;
+  padding: 10px; 
+  border-radius: 8px; 
+  border: none; 
+  font-weight: bold;
+}
