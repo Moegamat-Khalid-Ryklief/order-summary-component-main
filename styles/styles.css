@@ -120,3 +120,15 @@ body{
   border: none; 
   font-weight: bold;
 }
+
+@media (max-width: 900px){
+  .centering-container{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .order-summary-card{
+    margin: 4rem auto;
+  }
+}
